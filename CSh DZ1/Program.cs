@@ -23,7 +23,7 @@ if (numb2 > max) max = numb2;
 if (numb3 > max) max = numb3; 
 Console.Write($"Max = {max}");*/
 //Задача 3
-Console.WriteLine("Введите число: ");
+/*Console.WriteLine("Введите число: ");
 int number = int.Parse(Console.ReadLine()!);
 
 if (number%2! == 0){
@@ -31,4 +31,14 @@ if (number%2! == 0){
 }
 else {
   Console.Write($"Число являеться не чётным");
+}*/
+//Задача 4
+Console.WriteLine("Введите число: ");
+int number1 = int.Parse(Console.ReadLine()!);
+int number2 = 2;
+
+while (number2 < number1){
+   if (number2%2! == 0)
+    Console.Write($"{number2} ");
+    number2 = number2 + 2;
 }
