@@ -34,32 +34,26 @@ else {
   Console.Write($"1 число не являеться квадратом 2");
 }*/
 // Программа выдает название дня недели по заданному номеру
-/*Console.WriteLine("Введите номер дня недели: ");
+Console.WriteLine("Введите номер дня недели: ");
 int day = int.Parse(Console.ReadLine()!);
 
-if (day == 1){
+if (day == 1)
    Console.WriteLine("Понедельник"); 
-   }
-if (day == 2){
+if (day == 2)
    Console.WriteLine("Вторник"); 
-   }
-if (day == 3){
+if (day == 3)
    Console.WriteLine("Среда"); 
-   }
-if (day == 4){
+if (day == 4)
    Console.WriteLine("Четверг"); 
-   }
-if (day == 5){
+if (day == 5)
    Console.WriteLine("Пятница"); 
-   }
-if (day == 6){
+if (day == 6)
    Console.WriteLine("Суббота"); 
-   }
-if (day == 7){
+if (day == 7)
    Console.WriteLine("Воскресенье"); 
-   }*/
+   
 // Программа принимает на вход 3-х значное число и 
 //на выходе показывает его последнею цифру
-Console.WriteLine("Введите трёхзначное число: ");
+/*onsole.WriteLine("Введите трёхзначное число: ");
 int numb3 = int.Parse(Console.ReadLine()!);
-Console.WriteLine($"Последняя цифра равна {Convert.ToInt32(numb3%10)}");
+Console.WriteLine($"Последняя цифра равна {Convert.ToInt32(numb3%10)}");*/
