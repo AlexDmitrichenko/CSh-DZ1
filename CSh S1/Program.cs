@@ -21,7 +21,7 @@ while (numb1 <= numb){
 }*/
 // Задача 3 Программа на вход принимает 2 числа 
 //и проверяет является ли 1 число квадратом 2
-Console.WriteLine("Введите число 1: ");
+/*Console.WriteLine("Введите число 1: ");
 int num1 = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите число 2: ");
 int num2 = int.Parse(Console.ReadLine()!);
@@ -32,4 +32,29 @@ if (sqr == num2){
 }
 else {
   Console.Write($"1 число не являеться квадратом 2");
-}
+}*/
+// Программа выдает название дня недели по заданному номеру
+Console.WriteLine("Введите номер дня недели: ");
+int day = int.Parse(Console.ReadLine()!);
+
+if (day == 1){
+   Console.WriteLine("Понедельник"); 
+   }
+if (day == 2){
+   Console.WriteLine("Вторник"); 
+   }
+if (day == 3){
+   Console.WriteLine("Среда"); 
+   }
+if (day == 4){
+   Console.WriteLine("Четверг"); 
+   }
+if (day == 5){
+   Console.WriteLine("Пятница"); 
+   }
+if (day == 6){
+   Console.WriteLine("Суббота"); 
+   }
+if (day == 7){
+   Console.WriteLine("Воскресенье"); 
+   }
